@@ -10,35 +10,67 @@ export function Home() {
 			</div>
 			<div className="row player text-white">
 				<ol className="container-fluid">
-					<Songs title="song1" number="1" />
-					<Songs title="song2" number="2" />
-					<Songs title="song3" number="3" />
+					<div>
+						<Songs title="song1" number="1" />
+					</div>
+					<div>
+						<Songs title="song2" number="2" />
+					</div>
+					<div>
+						<Songs title="song3" number="3" />
+					</div>
 
-					<Songs title="song4" number="4" />
+					<div>
+						<Songs title="song4" number="4" />
+					</div>
 
-					<Songs title="song5" number="5" />
+					<div>
+						<Songs title="song5" number="5" />
+					</div>
 
-					<Songs title="song6" number="6" />
+					<div>
+						<Songs title="song6" number="6" />
+					</div>
 
-					<Songs title="song7" number="7" />
+					<div>
+						<Songs title="song7" number="7" />
+					</div>
 
-					<Songs title="song8" number="8" />
+					<div>
+						<Songs title="song8" number="8" />
+					</div>
 
-					<Songs title="song9" number="9" />
+					<div>
+						<Songs title="song9" number="9" />
+					</div>
 
-					<Songs title="song10" number="10" />
+					<div>
+						<Songs title="song10" number="10" />
+					</div>
 
-					<Songs title="song11" number="11" />
+					<div>
+						<Songs title="song11" number="11" />
+					</div>
 
-					<Songs title="song12" number="12" />
+					<div>
+						<Songs title="song12" number="12" />
+					</div>
 
-					<Songs title="song13" number="13" />
+					<div>
+						<Songs title="song13" number="13" />
+					</div>
 
-					<Songs title="song14" number="14" />
+					<div>
+						<Songs title="song14" number="14" />
+					</div>
 
-					<Songs title="song15" number="15" />
+					<div>
+						<Songs title="song15" number="15" />
+					</div>
 
-					<Songs title="song16" number="16" />
+					<div>
+						<Songs title="song16" number="16" />
+					</div>
 				</ol>
 			</div>
 			<div className="row control text-white justify-content-center p-4">
