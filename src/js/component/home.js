@@ -1,8 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import Songs from "./songs";
 
 //create your first component
 export function Home() {
+	const [musicPlaying, setMusic] = useState("");
+	//function playTrack() {
+	//  if (musicPlaying=""){
+	//    return setMusic()
+	//    }
+	//}
+	const arraysongs = [];
+	fetch("https://assets.breatheco.de/apis/sound/all")
+		.then(function(response) {
+			if (!response.ok) {
+				throw Error(response.statusText);
+			}
+			console.log(response.json());
+			return response.json();
+		})
+		.then(function(responseAsJson) {
+			responseAsJson["data/songs.json"].map(songDetails => {
+				arraysongs.push(songDetails);
+			});
+			// Do stuff with the JSON
+		})
+		.catch(function(error) {
+			console.log("Looks like there was a problem: \n", error);
+		});
+	console.log(arraysongs);
+
 	return (
 		<div className="container-fluid">
 			<div className="row bar text-white justify-content-center p-3 font-weight-bold">

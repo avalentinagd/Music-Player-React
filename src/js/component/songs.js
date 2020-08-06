@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export default function Songs(props) {
-	
 	return (
 		<li className="songbox row p-2 d-flex align-items-center">
 			<div className="num-wrapper">
@@ -11,7 +10,6 @@ export default function Songs(props) {
 				</span>
 			</div>
 			<span className="name-li font-weight-bold"> {props.title}</span>
-		
 		</li>
 	);
 }
